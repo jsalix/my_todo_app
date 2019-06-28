@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:my_todo_app/shared/my_drawer.dart';
 
 class TodoList extends StatefulWidget {
+  TodoList({Key key}) : super(key: key);
+
   @override
   _TodoListState createState() => _TodoListState();
 }
